@@ -1,0 +1,145 @@
+.description {
+  max-width: 830px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.description__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 47px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.07;
+  width: 830px;
+  max-width: 100%;
+  margin: 0 0 40px;
+}
+
+.description__quote {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.42;
+  margin: 0 0 10px;
+  width: 738px;
+  max-width: 100%;
+}
+
+.description__quote-author {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.42;
+  margin: 0 0 32px;
+  width: 732px;
+  max-width: 100%;
+  text-align: right;
+}
+
+.description__text {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.63;
+  margin: 0;
+  width: 722px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    padding: 60px 40px;
+  }
+
+  .description__title {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 1.1;
+    max-width: 100%;
+  }
+
+  .description__quote {
+    font-size: 26px;
+    max-width: 100%;
+  }
+
+  .description__quote-author {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.42;
+    text-align: right;
+  }
+
+  .description__text {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.63;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .description {
+    padding: 50px 20px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .description__title {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  .description__text {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .description__quote {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .description {
+    padding: 24px 16px;
+  }
+
+  .description__title {
+    font-size: 32px;
+    line-height: 1.09;
+    width: 100%;
+  }
+
+  .description__quote {
+    font-size: 26px;
+    width: 100%;
+    line-height: 1.25;
+  }
+
+  .description__quote-author {
+    font-size: 24px;
+    width: 100%;
+    line-height: 1.25;
+  }
+
+  .description__text {
+    font-size: 16px;
+    line-height: 1.63;
+    width: 100%;
+  }
+}
