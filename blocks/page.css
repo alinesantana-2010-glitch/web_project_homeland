@@ -7,24 +7,6 @@
   overflow-x: hidden;
 }
 
-.header {
-  background-color: #2a2c2f;
-  width: 100%;
-  max-width: 1280px;
-}
-
-.content {
-  background-color: #2a2c2f;
-  width: 100%;
-  max-width: 1280px;
-}
-
-.footer {
-  background-color: #2a2c2f;
-  width: 100%;
-  max-width: 1280px;
-}
-
 @media screen and (max-width: 760px) {
   .page {
     max-width: 100%;
