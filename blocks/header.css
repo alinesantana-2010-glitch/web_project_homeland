@@ -6,6 +6,8 @@
   max-width: 1280px;
   width: 100%;
   box-sizing: border-box;
+  padding-bottom: 70px;
+  padding-top: 30px;
 }
 
 .header__logo {
