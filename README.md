@@ -9,12 +9,26 @@ Página web da Galeria de Arte TripleTen que apresenta a exposição
 pelo País de Gales e Ucrânia. O projeto exibe histórias e fotos de
 profissionais de tecnologia de diferentes partes do mundo.
 
+## Seções da Página
+
+- **Header** — Logo da galeria com link e estado `:hover`
+- **Cover** — Título principal, subtítulo e imagem de destaque
+- **Description** — Citação de Joseph Beuys e texto introdutório
+- **Photo Grid** — Grelha de 8 fotografias dos lugares apresentados
+- **Places** — Cards com histórias de 4 cidades: Criccieth (País de Gales), Berea (EUA), Muramvya (Burundi) e Sua Cidade Natal
+- **Footer** — Copyright
+
 ## Tecnologias e Técnicas Utilizadas
 
-- HTML5 semântico com tags `<header>`, `<main>`, `<footer>`, `<section>`
+- HTML5 semântico com tags `<header>`, `<main>`, `<footer>`, `<section>`, `<ul>`, `<li>`, `<a>`
 - CSS3 com metodologia BEM (Block Element Modifier) — estrutura Flat
-- Design Responsivo com Media Queries para os breakpoints: 1280px, 768px e 320px
-- Fonte Inter com fallback para fontes do sistema
+- CSS Grid para as seções `photo-grid` (4 colunas) e `places`
+- Flexbox para `header`, `cover` e `footer`
+- Design Responsivo com Media Queries para os breakpoints: 1280px, 1024px e 544px
+- Estados `:hover` em todos os elementos interativos
+- Gradiente linear e sombra projetada no botão NFT
+- Sombra projetada nas imagens dos cards `place`
+- Fonte Inter com fallback para fontes do sistema (Arial, sans-serif)
 - normalize.css para consistência entre navegadores
 - Organização de arquivos em diretórios separados por blocos BEM
 
