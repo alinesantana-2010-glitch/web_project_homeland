@@ -90,10 +90,9 @@
 
 @media screen and (max-width: 544px) {
   .cover {
-    padding: 0 16px;
+    padding: 18px 16px 0 16px;
     align-items: center;
     text-align: center;
-    padding-top: 18px;
   }
 
   .cover__title {
